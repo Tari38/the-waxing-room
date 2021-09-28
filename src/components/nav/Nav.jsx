@@ -26,7 +26,7 @@ function NavBar() {
           
           <Link className="nav-link"  to="/components/pages/About">About</Link>
           
-          <Link className="nav-link"  to="/components/pages/Products">More</Link>
+          <Link className="nav-link"  to="/components/pages/More">More</Link>
           
           <DropDownMenu />
          </div>

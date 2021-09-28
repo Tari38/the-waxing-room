@@ -11,8 +11,8 @@ import Contact from "./components/pages/Contact";
 import About from "./components/pages/About";
 import AboutMe from "./components/pages/subpages/AboutMe";
 import OpeningHours from "./components/pages/subpages/OpeningHours";
-import GoodToKnow from "./components/pages/Good-to-Know";
-import Products from "./components/pages/Products";
+import WaxingEtiquette from "./components/pages/subpages/Etiquette";
+import Aftercare from "./components/pages/subpages/Aftercare";
 import More from "./components/pages/More";
 
 import Footer from "./components/partials/Footer";
@@ -39,8 +39,8 @@ function App() {
           <Route path="/components/pages/subpages/malewaxing" ><MaleWaxing /></Route>
           <Route path="/components/pages/subpages/aboutme" ><AboutMe /></Route>
           <Route path="/components/pages/subpages/opening-hours" ><OpeningHours /></Route>
-          <Route path="/components/pages/good-to-know" ><GoodToKnow /></Route>
-          <Route path="/components/pages/products" ><Products /></Route>
+          <Route path="/components/pages/subpages/etiquette" ><WaxingEtiquette /></Route>
+          <Route path="/components/pages/subpages/aftercare" ><Aftercare /></Route>
         
         
         

@@ -21,26 +21,26 @@ export default function More() {
       <Row className="more-row" col="2">
         <Col className="more-col">
             <h3>Waxing Etiquette</h3>
-            <p style={{ fontFamily: `"Montserrat", sans-serif`}}>We have services for men & women.</p>
-            <Button className="more-card-btn" href="/components/pages/services" style={{ backgroundImage: `url(${brushedMetal})` }}>View Services</Button>
+            <p style={{ fontFamily: `"Montserrat", sans-serif`}}>What we expect.</p>
+            <Button className="more-card-btn" href="/components/pages/subpages/etiquette" style={{ backgroundImage: `url(${brushedMetal})` }}>View Services</Button>
         </Col>
         
         <Col className="more-col">
             <h3>Waxing Aftercare</h3>
-            <p style={{ fontFamily: `"Montserrat", sans-serif`}}>Make an appointment or need advice?</p>
-            <Button className="more-card-btn" href="/components/pages/contact" style={{ backgroundImage: `url(${brushedMetal})` }}>Contact Us</Button>
+            <p style={{ fontFamily: `"Montserrat", sans-serif`}}>For help after your treatment.</p>
+            <Button className="more-card-btn" href="/components/pages/subpages/aftercare" style={{ backgroundImage: `url(${brushedMetal})` }}>Contact Us</Button>
         </Col>
        
         <Col className="more-col">
             <h3>Our Shop</h3>
-            <p style={{ fontFamily: `"Montserrat", sans-serif`}}>Opening hours, location, Elaine & Perron Rigot.</p>
-            <Button className="more-card-btn" href="/components/pages/about" style={{ backgroundImage: `url(${brushedMetal})` }}>Find Out More</Button>
+            <p style={{ fontFamily: `"Montserrat", sans-serif`}}>See what products we have for sale.</p>
+            <Button className="more-card-btn" href="/components/pages/subpages/shop" style={{ backgroundImage: `url(${brushedMetal})` }}>View Shop</Button>
         </Col>
         
         <Col className="more-col">
             <h3>Testimonials</h3>
-            <p style={{ fontFamily: `"Montserrat", sans-serif`}}>Waxing etiquette, aftercare, our shop and reviews.</p>
-            <Button className="more-card-btn" href="/components/pages/products" style={{ backgroundImage: `url(${brushedMetal})` }}>View More</Button>
+            <p style={{ fontFamily: `"Montserrat", sans-serif`}}>Read our testimonials.</p>
+            <Button className="more-card-btn" href="/components/pages/subpages/testimonials" style={{ backgroundImage: `url(${brushedMetal})` }}>View More</Button>
         </Col>
       </Row>
     </div>
