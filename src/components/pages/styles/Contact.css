@@ -1,0 +1,57 @@
+.container {
+  background-color: #EFE2DB;
+  margin-top: 80px;
+}
+
+.contact-container {
+  background-color: rgb(161, 208, 230);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.twrLogo {
+  height: 300px;
+  width: 300px;
+  border: double 7px white;
+  border-radius: 50%;
+}
+
+.jumbotron {
+  background-color: #EFE2DB; 
+  justify-items: center;
+  box-shadow: 4px 4px #485258;
+  margin-left: -15px;
+}
+
+.icon-container {
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  display: flex; 
+  justify-content: space-evenly;
+  background-color: rgb(161, 208, 230);
+}
+
+.contact-icons {
+  margin-top: 10px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-self: space-evenly;
+}
+
+
+@media (max-width: 480px) {
+  .twrLogo {
+    transform: scale(0.8);
+    transition: 0.5s ease;
+  }
+  .contact-icons {
+    transform: scale(0.7);
+    transition: 1s ease-in-out;
+ 
+  }
+}

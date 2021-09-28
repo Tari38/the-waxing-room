@@ -1,0 +1,48 @@
+.Menu {
+  background-color: rgb(134, 142, 153);
+  height: 100%;
+}
+
+.navlinks-container {
+  margin: 0;
+  height: 100%;
+  background-color: rgb(134, 142, 153);
+  color: rgb(253, 242, 228);
+  margin-top: 80px;
+}
+
+.navlinks-container hr {
+  background-color: #fff;
+  margin: 0px;
+}
+
+.navlinks-container li {
+  list-style: none;
+  visibility: hidden;
+}
+
+.navlink {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: space-between;
+  text-decoration: none;
+  font-family: "Cinzel", sans-serif;
+  padding: 0 10px;
+  color: white;
+}
+
+.navlink:hover {
+  color: rgb(161, 208, 230);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .navlink {
+    visibility: visible;
+  }
+  .Menu {
+    visibility: visible;
+  }
+}
