@@ -24,11 +24,12 @@ function SideMenu() {
             <hr />
           <li><a className="navlink"  href="/components/pages/Contact">Contact Us</a></li>
             <hr />
-          <li><a className="navlink"  href="/components/pages/Salon">Salon Information</a></li>
-            <hr />
+          
           <li><a className="navlink"  href="/components/pages/About">About</a></li>
             <hr />
           <li><a className="navlink"  href="/components/pages/Products">Products</a></li>
+            <hr />
+          <li><a className="navlink"  href="/components/pages/More">More</a></li>
             <hr />
       </ul>
       </nav>
