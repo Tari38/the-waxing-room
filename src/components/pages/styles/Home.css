@@ -52,7 +52,7 @@ h3 {
   letter-spacing: 1px;
 }
 
-.card-btn {
+.home-card-btn {
   height: 40px;
   width: 210px;
   border: solid 2px black;
@@ -68,7 +68,7 @@ h3 {
   justify-self: center;
 }
 
-.card-btn:hover {
+.home-card-btn:hover {
   cursor: pointer;
   color:rgb(248, 242, 234);
 }
