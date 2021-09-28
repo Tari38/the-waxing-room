@@ -1,7 +1,7 @@
 import React from "react";
 
 
-import perronRigot from "../../images/sw-PerronRigot-logo.png";
+import perronRigot from "../images/sw-PerronRigot-logo.png";
 
 export default function About() {
 
