@@ -8,22 +8,26 @@
   overflow: hidden;
 }
 
-.twrLogo {
+.home-jumbotron {
+  background-image: url("../../images/wax3.jpg");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+.home-twrLogo {
+  z-index: 2;
   height: 270px;
   width: 270px;
-  border: dotted 3px white;
+  border: double 7px white;
   border-radius: 50%;
   margin: auto;
+  transition: rotate 5s 360;
+  background: transparent;
 }
 
-.jumbotron {
-  background-color: #EFE2DB; 
-  justify-content: space-around;
-  box-shadow: 4px 4px #485258;
-}
-
-.row {
-  background-color: rgb(134, 142, 153);
+.home-row {
+  /* background-image: url("../../images/wax15.png"); */
+  background-color: rgba(138, 137, 135, 0.7);
   padding: 5px;
   margin: auto;
   justify-content: space-evenly;
@@ -37,7 +41,7 @@
   margin: 5px;
   padding-top: 15px;
   max-width: 300px;
-  height: 220px;
+  max-height: 220px;
   vertical-align: center;
 }
 
@@ -46,28 +50,19 @@
   transition: 0.6s ease-in-out;
 }
 
-h3 {
+.home-col h3 {
   font-family: "Cinzel", sans-serif;
   letter-spacing: 1px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
-.home-card-btn {
+.home-button {
   height: 40px;
   width: 210px;
-  border: solid 2px black;
-  border-radius: 20px;
-  font-family: "Cinzel", sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-  background-image: url("../../images/brushed-metal.jpg");
-  color: rgb(105, 102, 99);
-  letter-spacing: 0.5mm;
-  text-decoration: none;
-  vertical-align: center;
-  justify-self: center;
 }
 
-.home-card-btn:hover {
+.home-button:hover {
   cursor: pointer;
   color:rgb(248, 242, 234);
 }

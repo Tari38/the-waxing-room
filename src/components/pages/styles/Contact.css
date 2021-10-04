@@ -5,11 +5,16 @@
 
 .contact-container {
   background-color: rgb(161, 208, 230);
-  overflow: hidden;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  margin-bottom: 2px;
 }
+
+.cont-jumbotron {
+  background-image: url("../../images/wax3.jpg");
+  background-size: cover;
+}
+
 
 .twrLogo {
   height: 300px;
@@ -18,40 +23,66 @@
   border-radius: 50%;
 }
 
-.jumbotron {
-  background-color: #EFE2DB; 
-  justify-items: center;
-  box-shadow: 4px 4px #485258;
-  margin-left: -15px;
+.col-facebook, .col-email, .col-phone {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
 }
 
-.icon-container {
-  height: 100px;
+.icon-row {
+  background-color: rgb(134, 142, 153);
   width: 100%;
-  margin: 0;
   display: flex; 
-  justify-content: space-evenly;
-  background-color: rgb(161, 208, 230);
+  flex-direction: row;
+  padding: 10px;
 }
 
-.contact-icons {
-  margin-top: 10px;
-  height: 70px;
-  width: 70px;
+.contact-icon {
+  height: 100px;
+  width: 100px;
+  border: double 7px #fff;
   border-radius: 50%;
+  padding: 10px;
+  margin: auto;
+  background-color: rgb(161, 208, 230);
+  /* box-shadow: 6px 6px 4px 5px rgb(57, 57, 58); */
+}
+
+.button {
   display: flex;
-  justify-self: space-evenly;
+  flex-direction: row;
+  /* opacity: 1; */
+  background-image: url("../../images/brushed-metal.jpg");
+  border-radius: 50%;
+  margin: 10px;
 }
 
 
 @media (max-width: 480px) {
   .twrLogo {
-    transform: scale(0.8);
+    transform: scale(0.9);
     transition: 0.5s ease;
   }
-  .contact-icons {
-    transform: scale(0.7);
+  .contact-icon {
+    transform: scale(0.9);
     transition: 1s ease-in-out;
- 
+  }
+  .icon-row {
+    flex-direction: column;
   }
 }
+
+.contact-icon:hover {
+  cursor: pointer;
+  background-color:rgb(139, 148, 156);
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+
+.contact-card-body {
+  max-width: 280px;
+  margin: auto;
+  color: #fff;
+}
+

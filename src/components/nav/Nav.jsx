@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { MenuContext } from "react-flexible-sliding-menu";
 import { Navbar, NavbarBrand } from "reactstrap";
-import DropDownMenu from "./DropDownMenu";
+
 
 import "./styles/NavBar.css";
 
@@ -28,7 +28,7 @@ function NavBar() {
           
           <Link className="nav-link"  to="/components/pages/More">More</Link>
           
-          <DropDownMenu />
+          
          </div>
          
           <button onClick={toggleMenu} className="menu-button">Menu</button>

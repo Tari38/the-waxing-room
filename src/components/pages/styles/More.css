@@ -19,7 +19,7 @@
 .jumbotron {
   background-color: #EFE2DB; 
   justify-content: space-around;
-  box-shadow: 4px 4px #485258;
+  
 }
 
 .more-row {
@@ -46,12 +46,14 @@
   transition: 0.6s ease-in-out;
 }
 
-h3 {
+.more-col h3 {
   font-family: "Cinzel", sans-serif;
   letter-spacing: 1px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
-.more-card-btn {
+.more-button {
   height: 40px;
   width: 210px;
   border: solid 2px black;
@@ -59,7 +61,6 @@ h3 {
   font-family: "Cinzel", sans-serif;
   font-weight: bold;
   font-size: 16px;
-  background-image: url("../../images/brushed-metal.jpg");
   color: rgb(105, 102, 99);
   letter-spacing: 0.5mm;
   text-decoration: none;
@@ -67,7 +68,7 @@ h3 {
   justify-self: center;
 }
 
-.more-card-btn:hover {
+.more-button:hover {
   cursor: pointer;
   color:rgb(248, 242, 234);
 }
